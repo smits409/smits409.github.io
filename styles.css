@@ -1,45 +1,26 @@
 body {
-    background-color: #d3eaf6;  
-    color: #0a3d57;
+    background-color: white;  
+    color: black;
     font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif; }
-
-a { 
-    color: white;
-    text-decoration: none; }
-
-mark {
-    background-color: pink; }
+    font-family: Bebas, Futura, Helvetica; }
 
 p {
     background-color: white;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 30px; }
-
-.special {
-    background-color: pink;
+    font-size: 14px;  }
     
-}
+a {
+    color: pink;
+    text-decoration: none; }
 
-.top {
-    width: 200px;
-    height: 100px;
-    background-color: white;
-    position: absolute;
-    bottom: 20px;
-    left:20px;
-    transform: rotate(-20deg);
-   
-}
+.center {
+    text-align: center; }
 
-.circle {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    top: 20px;
-    right: 100px;
-    border-radius: 50px;
-}
+h2 {
+    text-align: left; 
+    color: pink; }
+    
+.indent {
+    text-indent: 100px; }
+
+
     
