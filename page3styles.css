@@ -8,6 +8,9 @@ p {
     background-color: white;
     font-size: 14px;  }
     
+    
+    
+    
 .triangle {
     position: absolute;
     left: 130px;
@@ -16,7 +19,17 @@ p {
 	height: 0;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
-	border-bottom: 120px solid black; }
+	border-bottom: 120px solid #041d2a; }
+	
+.snowcap {
+    position: absolute;
+    left: 160px;
+    top: 150px;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 60px solid white; }
 	
 .triangle2 {
     position: absolute;
@@ -26,7 +39,18 @@ p {
 	height: 0;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
-	border-bottom: 120px solid black; }
+	border-bottom: 120px solid #041d2a; }
+	
+.snowcap2 {
+    position: absolute;
+    left: 290px;
+    top: 150px;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 60px solid white; }
+
 
 .triangle3 {
     position: absolute;
@@ -36,17 +60,31 @@ p {
 	height: 0;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
-	border-bottom: 120px solid black; }
-
+	border-bottom: 120px solid #041d2a; }
+	
+.snowcap3 {
+    position: absolute;
+    left: 420px;
+    top: 150px;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 60px solid white; }
+	
+	
 
 .circle {
-    background-color: #3b647a;
+    background-color: #2e5e78;
     width: 40px;
     height: 40px;
     position: absolute;
     top: 100px;
     left: 370px;
     border-radius: 20px; }
+    
+    
+    
 
 .skinnyleft {
     width: 6px;
@@ -77,7 +115,30 @@ p {
     height: 6px;
     background-color: #b9cad2;
     position: absolute;
-    bottom: 160px;
+    top: 360px;
     left: 100px; }
+    
+    
+    
+    
+.gradient {
+    background-image: linear-gradient(
+      #e1e1e1, white);
+    height: 300px; 
+    width: 446px;
+    position: absolute;
+    top: 63px;
+    left: 100px; }
+    
+    
+.horizon {
+    width: 440px;
+    height: 40px;
+    background-image: linear-gradient(
+      #2e5e78, white);
+    position: absolute;
+    top: 250px;
+    left: 100px; }
+    
     
 
