@@ -1,11 +1,15 @@
 console.log("is it cold outside?");
-console.log("type yes or no");
+console.log("let it snow let it snow let it snow!");
 
 
 var symbols = ["*","_","*","_","*","_","*","_","*","_","*",]
-var pattern = "snow";
+var pattern = "";
 
-for (var increment = 2; increment > 1; increment++) {
+for (var increment = 2; increment < 100; increment++) {
     console.log(pattern);
-    pattern = symbols[increment]; 
+    if (increment == 50) {
+      pattern = "";
+    }
+    pattern = pattern + symbols[Math.floor(Math.random() * symbols.length)]; 
+    
       } 
