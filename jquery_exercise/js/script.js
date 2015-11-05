@@ -49,8 +49,23 @@ $("#toggle").click(function(){
     clicked = false;
     }
     
-    
 });
+    
+$("#status").mouseenter(function(){
+    if (clicked == true){
+      $("#cat").show();
+    }
+})
+      
+$("#status").mouseleave(function(){
+      $("#cat").hide();
+  }
+    
+     
+);
+    
+    
+
 
 
     
