@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position:fixed;
+}
+
+
+@media only screen and (max-width: 400px) {
+    
+    .button {
+        background-color: purple;
+    }
+    
+}
