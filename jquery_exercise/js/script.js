@@ -70,10 +70,76 @@ $("#status").mouseleave(function(){
 
     
 
+        if (clicked == 4)
+            { 
+            $(this).attr('src', 'img/plant22.png');
+            clicked++
+            checkNums();
+            }
+                else if (clicked == 2)
+                {  
+                    $(this).attr('src', 'img/plant33.png');
+                    clicked++
+                    checkNums[2];
+                }
+                
+                else if (clicked == 2)
+                { 
+                    $(this).attr('src', 'img/plant44.png');
+                    clicked++
+                    checkNums[3];
+                }
+    
+    }
+}
+    
  
 
 
 
+// other
+
+     $(".plant33").show();
+         $(".plant44").hide();
+         $(".plant22").hide();
+         clicked >= 1;
+    } 
+         
+    if (clicked == 2) { 
+         $(".plant44").show();
+         $(".plant33").hide();
+         $(".plant22").hide();
+         clicked >= 2;
+    });
 
 
+.plant22 {
+    width: 100px;
+    height: 100px;
+    top: 200px; 
+    right: 50%;
+    position:fixed;
+}
 
+.plant33 {
+    width: 100px;
+    height: 100px;
+    top: 200px; 
+    right: 50%;
+    position:fixed;
+}
+
+.plant44 {
+    width: 100px;
+    height: 100px;
+    top: 200px; 
+    right: 50%;
+    position:fixed;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position:fixed;
+}
