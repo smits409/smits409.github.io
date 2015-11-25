@@ -181,6 +181,148 @@ $(function() {
 });
 
 $(function() {
+    $(".small").click(function() {
+        console.log("medium");
+        
+        $(".plant5").css("display", "none");
+        $(".plant3").css("display", "none");
+        $(".plant1").css("display", "none");
+        $(".plant2").css("display", "none");
+        $(".pot").css("display", "none");
+        
+        $(".cloud").css("display", "none");
+        $(".cloud2").css("display", "none");
+        $(".rain1").css("display", "none");
+        
+        $(".food").css("display", "none");
+        $(".magic").css("display", "none");
+        $(".meat").css("display", "none");
+        
+        $(".small").css("display", "none");
+        $(".medium").css("display", "block");
+        $(".big").css("display", "none");
+        $(".chomp").css("display", "none");
+        
+    });
+});
+
+$(function() {
+    $(".medium").click(function() {
+        console.log("big");
+        
+        $(".plant5").css("display", "none");
+        $(".plant3").css("display", "none");
+        $(".plant1").css("display", "none");
+        $(".plant2").css("display", "none");
+        $(".pot").css("display", "none");
+        
+        $(".cloud").css("display", "none");
+        $(".cloud2").css("display", "none");
+        $(".rain1").css("display", "none");
+        
+        $(".food").css("display", "none");
+        $(".magic").css("display", "none");
+        $(".meat").css("display", "none");
+        
+        $(".small").css("display", "none");
+        $(".medium").css("display", "none");
+        $(".big").css("display", "block");
+        $(".chomp").css("display", "none");
+        
+      
+    });
+});
+
+
+$(function() {
+    $(".medium").click(function() {
+        console.log("big");
+        
+        $(".plant5").css("display", "none");
+        $(".plant3").css("display", "none");
+        $(".plant1").css("display", "none");
+        $(".plant2").css("display", "none");
+        $(".pot").css("display", "none");
+        
+        $(".cloud").css("display", "none");
+        $(".cloud2").css("display", "none");
+        $(".rain1").css("display", "none");
+        
+        $(".food").css("display", "none");
+        $(".magic").css("display", "none");
+        $(".meat").css("display", "none");
+        
+        $(".small").css("display", "none");
+        $(".medium").css("display", "none");
+        $(".big").css("display", "block");
+        $(".chomp").css("display", "none");
+        
+      
+        $(".feed").css("display", "none");
+    });
+});
+
+$(function() {
+    $(".big").click(function() {
+        console.log("big");
+        
+        $(".plant5").css("display", "none");
+        $(".plant3").css("display", "none");
+        $(".plant1").css("display", "none");
+        $(".plant2").css("display", "none");
+        $(".pot").css("display", "none");
+        
+        $(".cloud").css("display", "none");
+        $(".cloud2").css("display", "none");
+        $(".rain1").css("display", "none");
+        
+        $(".food").css("display", "none");
+        $(".magic").css("display", "none");
+        $(".meat").css("display", "none");
+        
+        $(".small").css("display", "none");
+        $(".medium").css("display", "none");
+        $(".big").css("display", "block");
+        $(".chomp").css("display", "none");
+        
+      
+        $(".feed").css("display", "block");
+    });
+});
+
+
+
+$(function() {
+    $(".feed").click(function() {
+        console.log("feeding");
+        
+        $(".plant5").css("display", "none");
+        $(".plant3").css("display", "none");
+        $(".plant1").css("display", "none");
+        $(".plant2").css("display", "none");
+        $(".pot").css("display", "none");
+        
+        $(".cloud").css("display", "none");
+        $(".cloud2").css("display", "none");
+        $(".rain1").css("display", "none");
+        
+        $(".food").css("display", "none");
+        $(".magic").css("display", "none");
+        $(".meat").css("display", "block");
+        
+        $(".small").css("display", "none");
+        $(".medium").css("display", "none");
+        $(".big").css("display", "block");
+        $(".chomp").css("display", "none");
+        $(".feed").css("display", "none");
+        
+  });
+});
+
+    
+
+
+$(function() {
     $(".meat").click(function() {
         console.log("growing");
         
@@ -202,6 +344,11 @@ $(function() {
         $(".medium").css("display", "none");
         $(".big").css("display", "none");
         $(".chomp").css("display", "none");
+        
+        $(function() {
+        $( ".meat" ).draggable();
+        $( ".big" ).droppable(); });
+                  
         
     });
 });

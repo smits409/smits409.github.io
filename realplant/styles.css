@@ -7,7 +7,15 @@ body {
 .meat {
     display: none;
     bottom: 10%;
-    left: 25%;
+    left: 20%;
+    position: absolute;
+    z-index: 1;
+}
+
+.feed {
+    display: none;
+    bottom: 10%;
+    right: 25%;
     position: absolute;
     z-index: 1;
 }
