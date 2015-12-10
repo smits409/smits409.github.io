@@ -11,7 +11,7 @@ p {
     
 a {
     font-size:33;
-    color: pink;
+    color: black;
     text-decoration: none; }
 
 .center {
@@ -43,8 +43,8 @@ h1 {
 
 h2 {
     font-size: 33; 
-    text-align: left; 
-    color: pink; }
+    text-align: center; 
+    color: black; }
     
 .indent {
     text-indent: 100px; }
