@@ -1,0 +1,9 @@
+body { 
+    background-image: url("location4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 100%;
+    display: block;
+    margin: 0px;
+}

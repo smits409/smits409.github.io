@@ -5,8 +5,7 @@
         $(".off").css("display", "block");
         $(".on").css("display", "none");
         $(".lightsoff").css("display", "block");
-        var audio = new Audio('dog.mp3');
-audio.play();
+        
     });
 
     $(".off").click(function() {
@@ -17,4 +16,13 @@ audio.play();
         $(".lightsoff").css("display", "none");
         
     });
+    
+     $(".radio").click(function() {
+        console.log("you turned the radio on!");
+        
+       var audio = new Audio('audio3.mp3');
+        audio.play();
+        
+    });
+
 
