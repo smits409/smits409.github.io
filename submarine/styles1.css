@@ -7,3 +7,36 @@ body {
     display: block;
     margin: 0px;
 }
+
+.oliver {
+    display: block;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    left: 26%;
+}
+
+.jordanna {
+    display: block;
+    position: absolute;
+    top: 26%;
+    z-index: 1;
+    left: 55%;
+}
+
+.moon {
+    display: block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    right: 2%;
+}
+
+.stairs {
+    display: block;
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    left: 0%;
+   
+}
