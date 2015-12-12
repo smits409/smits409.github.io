@@ -19,8 +19,18 @@ a {
     display: block;
     position: absolute;
     bottom: 0%;
-    z-index: -1;
+    z-index: 1;
     left: 10%;
+    pointer-events: visible;
+}
+
+.bedlight {
+    display: none;
+    position: absolute;
+    bottom: 0%;
+    z-index: 1;
+    left: 10%;
+    pointer-events: visible;
 }
 
 .frame {
@@ -37,6 +47,7 @@ a {
     top: 20%;
     z-index: 1;
     left: 70%;
+    pointer-events: visible;
 }
 
 .off {
@@ -45,6 +56,7 @@ a {
     top: 20%;
     z-index: 1;
     left: 70%;
+    pointer-events: visible;
 }
 
 .lightsoff {
@@ -61,6 +73,7 @@ a {
     display: block;
     position: absolute;
     bottom: 0%;
-    z-index: 1;
-    left: 70%;
+    z-index: 20;
+    right: 10%;
+    pointer-events: visible;
 }

@@ -24,5 +24,21 @@
         audio.play();
         
     });
+    
+     $(".bed").click(function() {
+        console.log("you turned on the lamp!");
+        
+        $(".bed").css("display", "none");
+        $(".bedlight").css("display", "block");
+        
+    });
+    
+     $(".bedlight").click(function() {
+        console.log("you turned on the lamp!");
+        
+        $(".bed").css("display", "block");
+        $(".bedlight").css("display", "none");
+        
+    });
 
 

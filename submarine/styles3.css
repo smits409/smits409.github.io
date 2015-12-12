@@ -220,7 +220,7 @@ body {
 .polaroid8 {
     display: none;
     position: absolute;
-    bottom: 47%;
+    bottom: 20%;
     z-index: 1;
     left: 80%;
     pointer-events: none;
