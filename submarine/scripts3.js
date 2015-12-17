@@ -1,4 +1,11 @@
 
+  $(".trainscene").click(function() {
+        console.log("sounds");
+     
+      var audio = new Audio('bridge1.mp3');
+        audio.play();
+     
+});
 
   $(".kiss").click(function() {
         console.log("grab the camera");
@@ -9,20 +16,14 @@
      
       var audio = new Audio('bridge2.mp3');
         audio.play();
-    
-        var bridge = (".bridge1");
-        bridge.muted = true;
-     
-    });
-    
-    
+ });
     
 
 
 $(".camera").click(function() {
     console.log("flash");
     
-    var audio = new Audio('flash.mp3');
+     var audio = new Audio('flash.mp3');
         audio.play();
         
         $(".kiss").css("display", "none");
@@ -30,13 +31,14 @@ $(".camera").click(function() {
         $(".camera").css("display", "none");
         $(".camera2").css("display", "block");
         $(".flash").css("display", "block");
+        
 });
 
 
 
     
-var images = [".polaroid1",".polaroid2",".polaroid3",".polaroid4",".polaroid5",".polaroid6",
-".polaroid7",".polaroid8",".polaroid9",".polaroid10"];
+var images = [".polaroid1",".polaroid2",".polaroid3",".polaroid4",
+".polaroid5",".polaroid6",".polaroid7",".polaroid8",".polaroid9",".polaroid10"];
 
 $(".camera2").click(function() {
     console.log("taken photos");
@@ -45,4 +47,4 @@ $(".camera2").click(function() {
 
     var audio = new Audio('camera.mp3');
         audio.play();
-});
+}); 
