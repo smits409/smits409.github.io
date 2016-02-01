@@ -1,0 +1,21 @@
+body {
+    background-color: white;  
+    color: black;
+    font-family: Century Gothic, Helvetica;
+    font-size:20px;
+    padding-top: 60px; 
+	  text-align: center;}
+
+
+.pdf{
+  text-align: center;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin:0 auto;
+  display: block;
+  overflow: scroll;
+}
+
+
+

@@ -1,0 +1,40 @@
+body {
+    background-color: white;  
+    color: black;
+    font-family: Century Gothic, Helvetica;
+    font-size:20px;
+    text-align: center;
+    padding-top: 100px; 
+}
+
+a {
+ 	color: #969696;
+ 	text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-align: center;
+ 	position: relative;
+    font-size:40px; 
+    display: block;
+    z-index: 1000;
+    padding-top: 170px;
+    margin: 0px auto;
+    pointer-events: all;
+ }
+
+.circle {
+    text-align: center;
+    background-color: transparent;
+    margin:0px auto;
+    border: 3px solid #e4e4e4;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    position: relative;
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+
+
