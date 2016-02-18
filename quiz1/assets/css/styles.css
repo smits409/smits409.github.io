@@ -44,14 +44,14 @@ div {
 }
 
 .s4container{
-	margin: 220px;
-	width: 348px;
-	height: 348px;
+	margin: 200px;
+	width: 368px;
+	height: 368px;
 }
 
 .s4 {
-	margin: 10px 10px 10px 0px;
-	height: 67px;
+	margin: 10px 10px 10px 20px;
+	height: 72px;
 	width: 328px;
 	background: #ED2025;
 	position: initial;
