@@ -1,0 +1,52 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
+
+body {  
+  margin: 0;
+  overflow: auto;
+  height: 100%;
+  background-color: transparent;
+}
+
+
+
+
+.marginleft {
+  background: white;
+  height:120%;
+  width:38%;
+  left: 0px;
+  position: fixed;
+}
+
+.marginright {
+  background: white;
+  height:120%;
+  width:38%;
+  right: 0px;
+  position: fixed;
+}
+
+.block {
+  position:relative;
+  width:100%;
+  height:100%;
+  pointer-events: none;
+  display: block;
+  z-index: 100;
+}
+
+.room {
+  position:absolute;
+  margin:0px;
+  top:0;
+}
+
+
+
+
+
+
