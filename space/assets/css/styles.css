@@ -11,13 +11,17 @@ body {
   background-color: transparent;
 }
 
+img {
+  height: 100%;
+  display: block;
+}
 
 
 
 .marginleft {
   background: white;
   height:120%;
-  width:38%;
+  width:32%;
   left: 0px;
   position: fixed;
 }
@@ -25,7 +29,7 @@ body {
 .marginright {
   background: white;
   height:120%;
-  width:38%;
+  width:32%;
   right: 0px;
   position: fixed;
 }
@@ -39,13 +43,112 @@ body {
   z-index: 100;
 }
 
-.room {
-  position:absolute;
-  margin:0px;
+
+
+
+.verylong {
+  position: absolute;
+  margin:0 auto;
   top:0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
 }
 
 
+.room {
+  height: 100%;
+  width: 1000px;
+  margin: 0;
+  pointer-events: all;
+}
+
+.divlayer {
+  height:100%;
+  width: 1000px;
+  margin: 0 auto;
+  top:0;
+  position: absolute;
+  pointer-events: all;
+}
+
+.coat {
+  background-color: red;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 14400px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: block;
+}
+
+.coatfolded {
+  background-color: yellow;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 14400px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: none;
+}
+
+.blanket {
+  background-color: pink;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 10000px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: block;
+}
+
+.blanketfolded {
+  background-color: green;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 10000px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: none;
+}
+
+.candle {
+  background-color: blue;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 7500px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: block;
+}
+
+.candlelit {
+  background-color: red;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 7500px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: none;
+}
 
 
 
