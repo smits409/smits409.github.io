@@ -73,7 +73,6 @@ img {
 }
 
 .coat {
-  background-color: red;
   pointer-events: all;
   height: 300px;
   width: 300px;
@@ -83,15 +82,18 @@ img {
   position: absolute;
   z-index: 2000;
   display: block;
+  background-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
 }
 
 .coatfolded {
-  background-color: yellow;
   pointer-events: all;
-  height: 300px;
-  width: 300px;
-  top: 1000px;
-  left: 14400px;
+  height: 100%;
+  width: 100%;
+  top: 10px;
+  left: 1300%;
   right: auto;
   position: absolute;
   z-index: 2000;
@@ -99,7 +101,10 @@ img {
 }
 
 .blanket {
-  background-color: pink;
+  background-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
   pointer-events: all;
   height: 300px;
   width: 300px;
@@ -112,7 +117,6 @@ img {
 }
 
 .blanketfolded {
-  background-color: green;
   pointer-events: all;
   height: 300px;
   width: 300px;
@@ -125,7 +129,10 @@ img {
 }
 
 .candle {
-  background-color: blue;
+  background-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
   pointer-events: all;
   height: 300px;
   width: 300px;
@@ -138,7 +145,6 @@ img {
 }
 
 .candlelit {
-  background-color: red;
   pointer-events: all;
   height: 300px;
   width: 300px;
