@@ -1,0 +1,170 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
+
+body {  
+  margin: 0;
+  overflow: auto;
+  height: 100%;
+  background-color: transparent;
+}
+
+img {
+  height: 100%;
+  display: block;
+}
+
+
+
+.marginleft {
+  background: white;
+  height:120%;
+  width:32%;
+  left: 0px;
+  position: fixed;
+}
+
+.marginright {
+  background: white;
+  height:120%;
+  width:32%;
+  right: 0px;
+  position: fixed;
+}
+
+.block {
+  position:relative;
+  width:100%;
+  height:100%;
+  pointer-events: none;
+  display: block;
+  z-index: 100;
+}
+
+
+
+
+.verylong {
+  position: absolute;
+  margin:0 auto;
+  top:0;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+}
+
+
+.room {
+  width: 100%;
+  pointer-events: all;
+  white-space: nowrap;
+  height:100%;
+}
+
+.room img {
+  display: inline-block;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+
+
+.divlayer {
+  height:100%;
+  width: 1000px;
+  margin: 0 auto;
+  top:0;
+  position: absolute;
+  pointer-events: all;
+}
+
+.coat {
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 14400px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: block;
+  background-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.coatfolded {
+  pointer-events: all;
+  height: 100%;
+  width: 100%;
+  top: 10px;
+  left: 1300%;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: none;
+}
+
+.blanket {
+  background-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 10000px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: block;
+}
+
+.blanketfolded {
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 10000px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: none;
+}
+
+.candle {
+  background-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 7500px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: block;
+}
+
+.candlelit {
+  pointer-events: all;
+  height: 300px;
+  width: 300px;
+  top: 1000px;
+  left: 7500px;
+  right: auto;
+  position: absolute;
+  z-index: 2000;
+  display: none;
+}
+
+
+
+
