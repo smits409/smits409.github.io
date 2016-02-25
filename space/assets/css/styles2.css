@@ -73,97 +73,32 @@ img {
 
 
 .divlayer {
+  top: 0;
+  pointer-events: all;
+  display: inline-block;
+  white-space: nowrap;
   height:100%;
-  width: 1000px;
-  margin: 0 auto;
-  top:0;
-  position: absolute;
-  pointer-events: all;
-}
-
-.coat {
-  pointer-events: all;
-  height: 300px;
-  width: 300px;
-  top: 1000px;
-  left: 14400px;
-  right: auto;
-  position: absolute;
-  z-index: 2000;
-  display: block;
-  background-color: transparent;
-  border-radius: 3px;
-  border-style: solid;
-  border-color: #fff;
-}
-
-.coatfolded {
-  pointer-events: all;
-  height: 100%;
   width: 100%;
-  top: 10px;
-  left: 1300%;
-  right: auto;
-  position: absolute;
   z-index: 2000;
-  display: none;
+  position: absolute;
 }
 
-.blanket {
+
+.divlayer div{
+  display: inline-block;
+  width: 32%;
+  height:100%;
   background-color: transparent;
   border-radius: 3px;
   border-style: solid;
-  border-color: #fff;
-  pointer-events: all;
-  height: 300px;
-  width: 300px;
-  top: 1000px;
-  left: 10000px;
-  right: auto;
-  position: absolute;
-  z-index: 2000;
-  display: block;
+  border-color: pink;
 }
 
-.blanketfolded {
-  pointer-events: all;
-  height: 300px;
-  width: 300px;
-  top: 1000px;
-  left: 10000px;
-  right: auto;
-  position: absolute;
-  z-index: 2000;
-  display: none;
-}
 
-.candle {
-  background-color: transparent;
-  border-radius: 3px;
-  border-style: solid;
-  border-color: #fff;
-  pointer-events: all;
-  height: 300px;
-  width: 300px;
-  top: 1000px;
-  left: 7500px;
-  right: auto;
-  position: absolute;
-  z-index: 2000;
-  display: block;
-}
 
-.candlelit {
-  pointer-events: all;
-  height: 300px;
-  width: 300px;
-  top: 1000px;
-  left: 7500px;
-  right: auto;
-  position: absolute;
-  z-index: 2000;
-  display: none;
-}
+
+
+
 
 
 
