@@ -1,4 +1,29 @@
-    
+
+    $(".candle").click(function() {
+        console.log("you lit the candle!");
+        
+        $(".candle").css("display", "none");
+        $(".candlelit").css("display", "block");
+        $(".candleout").css("display", "none");
+    });
+
+        $(".candlelit").click(function() {
+        console.log("you blew out the candle!");
+        
+        $(".candle").css("display", "none");
+        $(".candlelit").css("display", "none");
+        $(".candleout").css("display", "block");
+    });
+
+        $(".candleout").click(function() {
+        console.log("the candle is out");
+        
+        $(".candle").css("display", "block");
+        $(".candlelit").css("display", "none");
+        $(".candleout").css("display", "none");
+    });
+
+
 
     $(".coat").click(function() {
         console.log("you folded the coat!");
@@ -31,18 +56,5 @@
 
 
 
-    $(".candle").click(function() {
-        console.log("you lit the candle!");
-        
-        $(".candle").css("display", "none");
-        $(".candlelit").css("display", "block");
-    });
-
-        $(".candlelit").click(function() {
-        console.log("you lit the candle!");
-        
-        $(".candle").css("display", "block");
-        $(".candlelit").css("display", "none");
-    });
 
 

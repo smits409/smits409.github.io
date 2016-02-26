@@ -13,7 +13,6 @@ body {
 
 img {
   height: 100%;
-  display: block;
 }
 
 
@@ -40,7 +39,7 @@ img {
   height:100%;
   pointer-events: none;
   display: block;
-  z-index: 100;
+  z-index: 1000000;
 }
 
 
@@ -72,35 +71,66 @@ img {
 
 
 
-.divlayer {
-  top: 0;
+.divlayer div{
   pointer-events: all;
-  display: inline-block;
   white-space: nowrap;
-  height:100%;
-  width: 100%;
+  display: inline-block;
   z-index: 2000;
   position: absolute;
 }
 
 
-.divlayer div{
-  display: inline-block;
-  width: 33%;
-  height:100%;
-  background-color: transparent;
+
+.candle {
+  height: 600px;
+  width: 600px;
   border-radius: 3px;
   border-style: solid;
-  border-color: pink;
-
+  border-color: #fff;
+  left: 138%;
+  top: 40%;
 }
+
+.coat {
+  height: 600px;
+  width: 600px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
+  left: 280%;
+  top: 40%;
+}
+
+.blanket {
+  height: 600px;
+  width: 600px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #fff;
+  left: 200%;
+  top: 40%;
+}
+
 
 .candlelit {
   display: none;
+  height: 100%;
+  top: 0;
+  left:125%;
+  position: absolute;  
+  pointer-events: all;
+  white-space: nowrap;
 }
+
 
 .candleout {
   display: none;
+  height: 100%;
+  top: 0;
+  left:125%;
+  position: absolute;  
+  pointer-events: all;
+  white-space: nowrap;
 }
 
 .blanketfolded {
@@ -109,6 +139,12 @@ img {
 
 .coatfolded{
   display: none;
+  height: 100%;
+  top: 0;
+  left:252%;
+  position: absolute;  
+  pointer-events: all;
+  white-space: nowrap;
 }
 
 
