@@ -15,6 +15,9 @@ img {
   height: 100%;
 }
 
+div {
+  display: inherit;
+}
 
 
 .marginleft {
@@ -135,6 +138,22 @@ img {
 
 .blanketfolded {
   display: none;
+  height: 100%;
+  top: 0;
+  left:200%;
+  position: absolute;  
+  pointer-events: all;
+  white-space: nowrap;
+}
+
+.blanketclean {
+  display: none;
+  height: 100%;
+  top: 0;
+  left:200%;
+  position: absolute;  
+  pointer-events: all;
+  white-space: nowrap;
 }
 
 .coatfolded{

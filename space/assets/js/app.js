@@ -25,6 +25,34 @@
 
 
 
+
+    $(".blanket").click(function() {
+        console.log("you messed up the blanket!");
+        
+        $(".blanket").css("display", "none");
+        $(".blanketmess").css("display", "block");
+        $(".blanketfolded").css("display", "none");
+    });
+        $(".blanketmess").click(function() {
+        console.log("you folded the blanket!");
+        
+        $(".blanket").css("display", "none");
+         $(".blanketmess").css("display", "none");
+        $(".blanketfolded").css("display", "block");
+    });
+        $(".blanketfolded").click(function() {
+        console.log("you remessed up the blanket!");
+        
+        $(".blanket").css("display", "block");
+        $(".blanketmess").css("display", "none");
+        $(".blanketfolded").css("display", "none");
+    });
+
+
+
+
+
+
     $(".coat").click(function() {
         console.log("you folded the coat!");
         
@@ -40,19 +68,6 @@
     });
 
 
-
-    $(".blanket").click(function() {
-        console.log("you folded the blanket!");
-        
-        $(".blanket").css("display", "none");
-        $(".blanketfolded").css("display", "block");
-    });
-        $(".blanketfolded").click(function() {
-        console.log("you folded the blanket!");
-        
-        $(".blanket").css("display", "block");
-        $(".blanketfolded").css("display", "none");
-    });
 
 
 
