@@ -67,7 +67,7 @@ img {
   display: inline-block;
   margin: 0;
   height: 100%;
-  padding: 0;
+  padding: 0 0 0 0;
 }
 
 
@@ -86,16 +86,30 @@ img {
 
 .divlayer div{
   display: inline-block;
-  width: 32%;
+  width: 33%;
   height:100%;
   background-color: transparent;
   border-radius: 3px;
   border-style: solid;
   border-color: pink;
+
 }
 
+.candlelit {
+  display: none;
+}
 
+.candleout {
+  display: none;
+}
 
+.blanketfolded {
+  display: none;
+}
+
+.coatfolded{
+  display: none;
+}
 
 
 
