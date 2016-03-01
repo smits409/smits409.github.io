@@ -84,5 +84,101 @@ div {
 }
 
 
+.text2{
+  display: none;
+  position: absolute;
+  color: white;
+  font-family: Century Gothic, Helvetica;
+  font-size:50px;
+  margin-left: 36%;
+  padding-top: 10%; 
+  text-align: center;
+  font-weight: bold; 
+  z-index: 10000000;
+}
+
+.text3{
+  display: none;
+  position: absolute;
+  color: white;
+  font-family: Century Gothic, Helvetica;
+  font-size:50px;
+  margin-left: 120%;
+  padding-top: 10%; 
+  text-align: center;
+  font-weight: bold; 
+  z-index: 10000000;
+}
+
+.text4{
+  display: none;
+  position: absolute;
+  color: white;
+  font-family: Century Gothic, Helvetica;
+  font-size:50px;
+  margin-left: 177%;
+  padding-top: 10%; 
+  text-align: center;
+  font-weight: bold; 
+  z-index: 10000000;
+}
+
+.text5{
+  display: none;
+  position: absolute;
+  color: white;
+  font-family: Century Gothic, Helvetica;
+  font-size:50px;
+  margin-left: 243%;
+  padding-top: 10%; 
+  text-align: center;
+  font-weight: bold; 
+  z-index: 10000000;
+}
+
+
+
+
+
+.circle {
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px; 
+  bottom: 20px;
+  background: transparent;
+}
+
+.circle1 {
+    top: 50%;
+    margin-left: 310%;
+}
+
+.circle2 {
+    top: 20px;
+    margin-left: 280%;
+}
+
+.circle3 {
+    bottom: 30%;
+    margin-left: 100%;
+}
+
+.circle4 {
+    bottom: 40px;
+    margin-left: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
