@@ -1,4 +1,29 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 0;
 }
+
+
+
+
+/*  Position Notes:
+	
+	relative- keeps it in flow of doc and modifies slightly therein
+	absolute-positions it out of flow of doc and positions it from top left corner of the page
+	fixed- is positioned to window NOT page. 
+
+	you can only use z-index on elements that arent static
+
+	you can use them in combitnation though!
+
+
+
+	static- position of every element by default; very rare; by default everything is static
+
+
+
+
+
+
+*/
