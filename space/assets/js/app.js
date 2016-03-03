@@ -1,20 +1,13 @@
-    $(".closed").hover(function() {
-        console.log("you hovered the door"); 
-        $(".text").css("display", "block");
-    });
 
-    $(".text").hover(function() {
-        console.log("you hovered the door"); 
-        $(".text").css("display", "none");
-    });
+ 	
 
-
- 	$(".closed").click(function() {
-        console.log("you opened the door x1"); 
+    $(".text").click(function() {
+        console.log("you opened the portal"); 
         $(".one").css("display", "block");
         $(".text").css("display", "none");
         $(".closed").css("display", "none");
     });
+
 
   	$(".one").click(function() {
         console.log("you opened the door x2");  
@@ -81,23 +74,43 @@
 
     $(".circle1").hover(function() {
         console.log("you hovered the circle"); 
-        $(".circle1").css("background", "white");
+        $(".circle1").css("background", "#274F7D");
     });
 
     $(".circle2").hover(function() {
         console.log("you hovered the circle"); 
-        $(".circle2").css("background", "white");
+        $(".circle2").css("background", "#274F7D");
     });
 
     $(".circle3").hover(function() {
         console.log("you hovered the circle"); 
-        $(".circle3").css("background", "white");
+        $(".circle3").css("background", "#274F7D");
     });
 
     $(".circle4").hover(function() {
         console.log("you hovered the circle"); 
-        $(".circle4").css("background", "white");
+        $(".circle4").css("background", "#274F7D");
     });
+
+
+
+
+    $(".circle11").hover(function() {
+        console.log("you hovered the circle"); 
+        $(".circle11").css("background", "#274F7D");
+    });
+
+    $(".circle22").hover(function() {
+        console.log("you hovered the circle"); 
+        $(".circle22").css("background", "#274F7D");
+    });
+
+    $(".circle33").hover(function() {
+        console.log("you hovered the circle"); 
+        $(".circle33").css("background", "#274F7D");
+    });
+
+
 
 
 

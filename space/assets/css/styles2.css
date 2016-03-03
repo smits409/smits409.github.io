@@ -47,15 +47,15 @@ body {
 
 
 .text{
-  display: none;
-  position: absolute;
-  color: #314871;
-  font-family: Century Gothic, Helvetica;
-  font-size:100px;
-  margin-left: 35%;
-  padding-top: 19%; 
-  text-align: center;
-  font-weight: bold; 
+  display: block;
+  position: relative;
+  left: 48%;
+  right: auto;
+  bottom: 55%;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px; 
+  background: #274F7D;
   z-index: 10000000;
 }
 
