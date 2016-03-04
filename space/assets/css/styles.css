@@ -94,7 +94,7 @@ div {
   height: 60px; 
   background: white;
   bottom: 65%;
-  left: 140%;
+  left: 136%;
 }
 
 .text4{
@@ -106,7 +106,7 @@ div {
   height: 60px; 
   background: white;
   bottom: 55%;
-  left: 197%;
+  left: 190%;
 }
 
 .text5{
@@ -118,12 +118,14 @@ div {
   height: 60px; 
   background: white;
   bottom: 60%;
-  left: 253%;
+  left: 258%;
 
 }
 
 
-
+.none {
+  display: none;
+}
 
 
 .circle {
@@ -157,22 +159,6 @@ div {
 }
 
 
-
-
-.circle11 {
-  bottom: 50%;
-  left: 40%;
-}
-
-.circle22 {
-  bottom: 50%;
-  left: 45%;
-}
-
-.circle33 {
-  bottom: 50%;
-  left: 50%;
-}
 
 
 
