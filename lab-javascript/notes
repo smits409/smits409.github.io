@@ -1,0 +1,57 @@
+	
+*//	NOTES ON JAVASCRIPT : MARCH 10 2016
+
+
+variables:
+
+unfixed value (x)
+
+	-string: series of characters strung together wrapped in quotes
+				ie: "hello world, it's 60 degrees outside"
+
+	-number: any digit 0-9; you can do math with numbers (not strings)
+				ie: 1000 900 87
+
+	-boolean: true / false  :  1 / 0
+			 	ie: "the sky is blue"
+			 		=> true / 1
+
+			 			0 = 0 (a statement)
+			 			0 == 0 (a question)
+			 			=> true
+
+			 			100 == 0
+			 			=> false
+
+			 			"100" == 100
+			 			=> false
+
+	-array: ie: combination of data: strings, numbers, etc.
+				["socks", "shirts", "pants", "out of season"];
+				semicolon as way of saying end of code.
+
+						0. socks
+						1. shirts
+						2. pants
+						3. out of season
+				
+						var dresser = ["socks", "shirts", "pants", "out of season"];
+						var animals = ["ducks", "cats", "dogs", "sheep"];
+
+						dresser[1] => "shirts"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
