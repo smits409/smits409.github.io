@@ -1,0 +1,43 @@
+
+.word-wrapper {
+	display: inline-block;
+	margin-right: 60px;
+}
+
+.letter-wrapper { 
+	display: inline-block;
+	margin: 0 10px 550px 10px;
+}
+
+.letter {
+	width: 35px;
+	height: 500px;
+	background: none;
+	margin: 0px;
+	position: relative;
+}
+
+.bar {
+	position: absolute;
+	background: #000;
+}
+
+.vertical {
+	width: 10px;
+	height: 500px;
+}
+
+.horizontal {
+	width: 35px;
+	height: 10px;
+}
+
+.halfhoriz {
+	width: 18px;
+	height: 10px;
+}
+
+.halfvert {
+	width: 10px;
+	height: 250px;
+}
