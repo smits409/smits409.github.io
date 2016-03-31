@@ -20,9 +20,9 @@ body {
 a {
   text-decoration: none;
   color: #989898;
+  font-style: oblique;
 }
         a:link {color:#989898;}
-        a:visited {color:#000;}
         a:hover{color: #fff;}
         a:active {color:#fff;}
 
@@ -31,19 +31,19 @@ ul {
 	display: block;
   text-align: center;
   display: block;
-  padding-top: 60px;
-
+  padding-top: 10px;
 }
+
 
 .square {
   text-align: center;
   background-color: #f2f2f2;
   position: relative;
-  width: 400px;
-  height: 500px;
-  margin:0 auto;
-  z-index: -1
-  display: block;
+  width: 300px;
+  height: 400px;
+  margin:30px auto;
+  display: inline-block;
+  vertical-align: top;
 
 }
 
