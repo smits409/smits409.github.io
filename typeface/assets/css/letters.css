@@ -2,11 +2,13 @@
 .word-wrapper {
 	display: inline-block;
 	margin-right: 60px;
+	height: 550px;
 }
 
 .letter-wrapper { 
 	display: inline-block;
-	margin: 0 10px 550px 10px;
+	margin: 0 10px 0px 10px;
+	height: 550px;
 }
 
 .letter {
@@ -17,27 +19,63 @@
 	position: relative;
 }
 
+.letter2 {
+	width: 50px;
+	height: 500px;
+	background: none;
+	margin: 0px;
+	position: relative;
+}
+
+
+
 .bar {
 	position: absolute;
-	background: #000;
-}
+	background: #000;}
 
 .vertical {
 	width: 10px;
-	height: 500px;
-}
+	height: 500px;}
 
 .horizontal {
 	width: 35px;
-	height: 10px;
-}
+	height: 10px;}
 
 .halfhoriz {
 	width: 18px;
-	height: 10px;
-}
+	height: 10px;}
 
 .halfvert {
 	width: 10px;
-	height: 250px;
+	height: 250px;}
+
+.quartvert {
+	width: 10px;
+	height: 125px;}
+
+
+
+
+.horizontal2 {
+	width: 50px;
+	height: 10px;
 }
+
+.qdash {
+	width: 45px;
+	height: 10px;
+}
+
+.krtop {
+	width:30px;
+	height: 10px;
+}
+
+
+
+
+
+
+
+
+
