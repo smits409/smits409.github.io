@@ -1,19 +1,9 @@
 
 
-.word {
-	z-index: 50;
-}
-
-
-.word-wrapper {
-	display: inline-block;
-	height: 550px;
-}
-
 .letter-wrapper { 
 	display: inline-block;
 	margin: 0 10px 0px 10px;
-	height: 550px;
+	height: 500px;
 }
 
 .letter {
@@ -34,9 +24,17 @@
 
 
 
+
 .bar {
 	position: absolute;
 	background: #000;}
+
+.bar2 {
+	position: absolute;
+	background: #000;
+	display: none;}
+
+
 
 .vertical {
 	width: 10px;
@@ -77,21 +75,6 @@
 }
 
 
-
-
-.readibility {
-	top: 130px;
-	left: 100px;
-	height: 550px;
-	width: 630px;
-}
-
-.fruitloops {
-	top: 130px;
-	height: 550px;
-	left: 850px;
-	width: 590px;
-}
 
 
 
