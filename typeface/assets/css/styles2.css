@@ -17,72 +17,179 @@ body {
 
 
 .container {
+	padding-left: 70px;
+	padding-bottom: 70px;
 	position: relative;
-	margin-left:70px;
-	margin-bottom: 70px;
+}
+
+.smiley {
+	display: none;
+	position: fixed;
+	z-index: 500;
+	pointer-events:none;
 }
 
 
 
-.word-wrapper1 {
+
+
+
+.gradient {
+    animation-name: animate;
+    animation-duration: 1s;
+    -webkit-animation: animate 1s infinite;
+	-moz-animation: animate 1s infinite;
+	animation: animate 1s infinite;
+}
+
+@keyframes animate { 
+    0%{background: #ff00f5}
+    15%{background: #00ffbd}
+    30%{background: #fffa01}
+    45%{background: #01fff6}
+    60%{background: #2fff00}
+    85%{background: #f9ff00}
+    100%{background: #ff0063}
+}
+
+
+
+
+
+
+
+.popsicle{
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 70px;
+	left: 350px;
+}
+
+.kleenex {
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 370px;
+	left: 540px;
+}
+
+.qtip {
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 20px;
+	left: 980px;
+}
+
+.bandaid {
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 0px;
+	left: 590px;
+}
+
+.clorox{
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 440px;
+	left: -10px;
+}
+
+.tupperware {
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 100px;
+	left: 1100px;
+}
+
+.chapstick{
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 0px;
+}
+
+.hulahoop{
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 170px;
+	left: -20px;
+}
+
+.yoyo{
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 300px;
+	left: 960px;
+}
+
+.vaseline{
+	display: none;
+	position: fixed;
+	z-index: 200;
+	top: 480px;
+	left: 910px;
+}
+
+.jacuzzi{
+	display: none;
+	position: fixed;
+	z-index: 190;
+	top: 280px;
+	left: 180px;
+}
+
+.sharpie{
+	display: none;
+	position: fixed;
+	z-index: 190;
+	top: 0px;
+	left: 680px;
+}
+
+.aspirin{
+	display: none;
+	position: fixed;
+	z-index: 190;
+	top: 0px;
+	left: 350px;
+}
+
+.postit{
+	display: none;
+	position: fixed;
+	z-index: 190;
+	top: 200px;
+	left: 820px;
+}
+
+.pingpong{
+	display: none;
+	position: fixed;
+	z-index: 190;
+	top: 330px;
+	left: 1000px;
+}
+
+
+
+.shuffle {
 	display: inline-block;
-	height: 550px;
-	background: white;
-	padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-right: 70px;
-	margin-top: 70px;
-	cursor: pointer;
+
 }
 
-.word-wrapper2 {
-	display: inline-block;
-	height: 550px;
-	background: white;
-	padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-right: 70px;
-	margin-top: 70px;
-	cursor: pointer;
-}
 
-.word-wrapper3 {
-	display: inline-block;
-	height: 550px;
-	background: white;
-	padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-right: 70px;
-	margin-top: 70px;
-	cursor: pointer;
-}
 
-.word-wrapper4 {
-	display: inline-block;
-	height: 550px;
-	background: white;
-	padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-right: 70px;
-	margin-top: 70px;
-	cursor: pointer;
-}
 
-.word-wrapper5 {
-	display: inline-block;
-	height: 550px;
-	background: white;
-	padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-right: 70px;
-	margin-top: 70px;
-	cursor: pointer;
-}
+
+
+
 
 
 

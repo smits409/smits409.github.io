@@ -18,9 +18,9 @@ body {
 }
 
 a {
+  text-align: center;
   text-decoration: none;
   color: #989898;
-  font-style: oblique;
 }
         a:link {color:#989898;}
         a:hover{color: #fff;}
@@ -39,9 +39,9 @@ ul {
   text-align: center;
   background-color: #f2f2f2;
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 400px;
-  margin:30px auto;
+  margin: 30px auto;
   display: inline-block;
   vertical-align: top;
 

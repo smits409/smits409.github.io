@@ -1,11 +1,6 @@
+function gotoRandom() {
+  var pages = ["page1.html","page2.html","page3.html"];
+    location.href = pages[Math.floor(Math.random()*pages.length)];
+}
 
-$('.animation').click(function() {
-	console.log ('clicked');
-	$('.hidden').addClass('show');
-	});
-
-
-$('.animation2').click(function() {
-	console.log ('clicked');
-	$('.hidden2').addClass('show2');
-	});
+gotoRandom();
