@@ -1,0 +1,62 @@
+* { box-sizing: border-box;}
+
+body {
+	font-family: TradeGothic;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+}
+
+
+.logo {
+	display: inline-block;
+	font-size: 45px;
+	top: 30px;
+	left: 50px;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu {
+	display: inline-block;
+	font-size: 16px;
+	top: 40px;
+	right: 70px;
+	position: absolute;
+	word-spacing: 30px;
+}
+
+.underline {
+	border-bottom: 1.6px solid #000;
+	padding-bottom: 2.4px;
+}
+
+
+
+.drag:hover { 
+    cursor: move;
+}
+
+
+@font-face {
+    font-family: TradeGothic;
+    src: url(TradeGothicLTStd-Bd2.otf);
+	};
+
+
+
+
+
+
+
+
