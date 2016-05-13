@@ -57,6 +57,7 @@ body {
   height: 60px; 
   background: #274F7D;
   z-index: 10000000;
+  cursor: pointer;
 }
 
 
@@ -73,6 +74,7 @@ body {
   position: absolute;
   height:100%;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .one{

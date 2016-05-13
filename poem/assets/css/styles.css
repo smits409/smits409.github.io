@@ -17,7 +17,7 @@ body {
 .logo {
 	display: inline-block;
 	font-size: 45px;
-	top: 30px;
+	top: 35px;
 	left: 50px;
 	position: absolute;
 }
@@ -30,7 +30,7 @@ a {
 .menu {
 	display: inline-block;
 	font-size: 16px;
-	top: 40px;
+	top: 45px;
 	right: 70px;
 	position: absolute;
 	word-spacing: 30px;
@@ -44,14 +44,14 @@ a {
 
 
 .drag:hover { 
-    cursor: move;
+    cursor:-webkit-grab;
 }
 
 
 @font-face {
     font-family: TradeGothic;
     src: url(TradeGothicLTStd-Bd2.otf);
-	};
+};
 
 
 
